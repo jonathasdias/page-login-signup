@@ -1,0 +1,58 @@
+main {
+    min-height: 100vh;
+    height: 100vh;
+    width: 100%;
+    background: url('https://cdn.pixabay.com/photo/2023/10/28/16/27/mountains-8347890_1280.jpg') no-repeat center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 6px;
+}
+
+.container {
+    width: 50rem;
+    height: 85%;
+    padding: 1rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 4rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+}
+
+figure {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background: url('https://cdn.pixabay.com/photo/2023/06/09/19/37/letter-8052497_1280.png') no-repeat center/cover;
+}
+
+.container-btns {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 4rem;
+}
+
+.container-btns .btn-login, .btn-register {
+    display: grid;
+    place-items: center;
+    width: 16rem;
+    height: 5rem;
+    border: 2px solid black;
+    color: white;
+    text-decoration: none;
+    font-size: 1.8em;
+    border-radius: 1rem;
+}
+
+.container-btns .btn-login:hover, .btn-register:hover {
+    background: linear-gradient(rgb(112, 109, 109), rgb(153, 150, 150));
+    color: rgb(236, 227, 227);
+}

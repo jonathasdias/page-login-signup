@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/loginScreen.css">
+    <link rel="stylesheet" href="./css/mediaQueries/mediaLogin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <fieldset class="wapper">
+
+        <figure class="container-image">
+
+            <h1>Welcome, log in to connect with us</h1>
+
+            <p>Log in or register to connect with us and have access to unique content made especially for you.</p>
+
+            <p>Not only will you have access to a lot of content, but you will have several online tutors at your disposal to answer your questions.</p>
+
+        </figure>
+        
+        <form id="form-login">
+    
+            <h1 class="form-title">Welcome</h1>
+
+            <div class="container">
+                <label for="email"><i class="fa-solid fa-envelope"></i></label>
+                <input type="email" name="email" id="email" placeholder="Type your e-mail" maxlength="66">
+            </div>
+
+            <div class="container">
+                <label for="password"><i class="fa-solid fa-key"></i></label>
+                <input type="password" name="password" id="password" placeholder="Type your password" maxlength="20">
+            </div>
+            
+    
+            <section class="row">
+                <a href="./registrationScreen.html">Create account</a>
+    
+                <a href="#">Forgot password</a>
+            </section>
+    
+            <section class="container-btn">
+                <input type="submit" value="Log Into" id="btn-login">
+            </section>
+
+            <h3>or</h3>
+
+            <section class="icons-account">
+                <figure class="icons"><i class="fa-brands fa-google"></i></figure>
+                <figure class="icons"><i class="fa-brands fa-facebook-f"></i></figure>
+                <figure class="icons"><i class="fa-brands fa-linkedin-in"></i></figure>
+            </section>
+    
+        </form>
+
+    </fieldset>
+
+    <script src="./javascript/preventLogin.js"></script>
+</body>
+</html>

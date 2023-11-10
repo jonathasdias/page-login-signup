@@ -1,0 +1,58 @@
+@media(max-width: 780px) {
+    body {
+        padding: 1rem 0;
+    }
+
+    .wapper {
+        width: 40rem;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .wapper-info {
+        padding: 3rem 1rem;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 430px) {
+
+    body {
+        padding: 0;
+    }
+
+    .wapper {
+        width: 100vw;
+        border-radius: 0;
+    }
+
+    .wapper-info {
+        width: 100%;
+        border-radius: 0;
+    }
+    
+    form {
+        gap: .5rem;
+        padding: 2rem 1rem;
+    }
+
+    form .row {
+        flex-direction: column;
+        row-gap: .5rem;
+    }
+
+    form .row div {
+        width: 100%;
+    }
+
+    form .btn-register {
+        width: 100%;
+    }
+
+}

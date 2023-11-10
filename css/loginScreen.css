@@ -1,0 +1,135 @@
+.wapper {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: none;
+}
+
+.wapper .container-image {
+    background: url('https://cdn.pixabay.com/photo/2017/02/14/03/03/ama-dablam-2064522_1280.jpg') no-repeat center/cover;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wapper .container-image h1 {
+    margin: 2rem;
+    font-size: 3.2em;
+    text-align: center;
+    background-color: rgba(5, 61, 173, 0.774);
+    color: white;
+}
+
+.wapper .container-image p {
+    font-size: 1.2em;
+    background-color: rgba(5, 61, 173, 0.726);
+    width: 80%;
+    text-align: justify;
+    text-indent: 1.8rem;
+    color: white;
+    padding: .6rem;
+}
+
+.wapper form {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1rem;
+}
+
+.wapper form .form-title {
+    text-align: center;
+    margin: 1rem 0;
+    font-size: 2.6em;
+}
+
+.wapper form .container {
+    position: relative;
+    width: 80%;
+}
+
+.wapper form label {
+    position: absolute;
+    top: 50%;
+    left: 7px;
+    transform: translateY(-50%);
+    display: block;
+    font-size: 1.4em;
+}
+
+.wapper form .container input:not(input[type='submit']) {
+    padding: .8rem .8rem .8rem 2.2rem;
+    width: 100%;
+    font-size: 1.1em;
+}
+
+.wapper form .row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.wapper form .row a {
+    text-decoration: none;
+    color: rgb(4, 4, 196);
+}
+
+.wapper form .container-btn {
+    width: 80%;
+}
+
+.wapper form .container-btn input[type='submit'] {
+    width: 100%;
+    padding: .6rem;
+    font-size: 1.2em;
+    background-color: rgb(255, 166, 0);
+    border: none;
+    cursor: pointer;
+}
+
+.wapper form .container-btn input:hover {
+    background-color: rgb(223, 148, 9);
+}
+
+.wapper form h3 {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 6px;
+    margin: 1rem 0;
+}
+
+.wapper form h3::after, h3::before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    width: 40%;
+    background-color: black;
+}
+
+form .icons-account {
+    display: flex;
+    justify-content: center;
+    column-gap: 1rem;
+}
+
+form .icons-account .icons {
+    cursor: pointer;
+    border-radius: 100%;
+    width: 2.6rem;
+    height: 2.6rem;
+    display: grid;
+    place-items: center;
+    background-color: rgb(206, 197, 197);
+    color: rgb(4, 4, 196);
+}
+form .icons-account .icons:hover {
+    background-color: rgb(223, 212, 212);
+}

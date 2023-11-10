@@ -1,0 +1,30 @@
+@media(max-width: 596px) {
+
+    .container {
+        background-color: transparent;
+        backdrop-filter: inherit;
+        -webkit-backdrop-filter: inherit;
+        height: 100%;
+    }
+
+    figure {
+        width: 200px;
+        height: 200px;
+    }
+
+    .container-btns {
+        row-gap: 2rem;
+    }
+
+    .container-btns .btn-login, .btn-register {
+        width: 100%;
+        background: linear-gradient(rgba(112, 109, 109, 0.301), rgba(153, 150, 150, 0.589));
+        border: 2px solid rgb(66, 63, 63);
+        font-weight: bolder;
+        font-size: 2em;
+    }
+
+    .container-btns .btn-login:hover, .btn-register:hover {
+        background: transparent;
+    }
+}
